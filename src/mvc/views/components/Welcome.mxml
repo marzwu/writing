@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" title="welcome">
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<s:Button x="91" y="133" label="新游戏"/>
+	<s:Button x="171" y="133" label="更新"/>
+	<s:Button id="btnPreserve" left="10" bottom="10" label="预留"/>
+	<s:Button id="btnAbout" right="10" bottom="10" label="关于我们"/>
+	<s:Button id="btnVolume" right="10" top="10" label="音量"/>
+	<s:Button id="btnMusic" right="73" top="10" label="音乐"/>
+</s:View>
