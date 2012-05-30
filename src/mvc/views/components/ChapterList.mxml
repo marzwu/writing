@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009"
+		xmlns:s="library://ns.adobe.com/flex/spark"
+		title="ChapterList">
+	
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<s:View x="46" y="56" verticalCenter="0">
+		<s:layout>
+			<s:VerticalLayout/>
+		</s:layout>
+		<s:Button x="27" y="52" height="30" label="第四关"/>
+		<s:Button x="27" y="90" height="30" label="第三关"/>
+		<s:Button x="27" y="128" height="30" label="第二关"/>
+		<s:Button x="27" y="166" height="30" label="第一关"/>
+	</s:View>
+	
+	
+	<s:View x="237" y="77" verticalCenter="0">
+		<s:layout>
+			<s:TileLayout/>
+		</s:layout>
+		<s:Button id="btnOne" x="237" y="52" label="一"/>
+		<s:Button x="300" y="52" label="二"/>
+		<s:Button x="363" y="52" label="三"/>
+		<s:Button label="四"/>
+		<s:Button x="300" y="103" label="五"/>
+		<s:Button x="300" y="103" label="五"/>
+		<s:Button x="300" y="103" label="五"/>
+		<s:Button x="300" y="103" label="五"/>
+		<s:Button x="300" y="103" label="五" />
+		<s:Button x="300" y="103" label="五" />
+		<s:Button x="300" y="103" label="五" />
+		<s:Button x="300" y="103" label="五" />
+		<s:Button x="300" y="103" label="五" />
+		<s:Button x="300" y="103" label="五" />
+	</s:View>
+	
+</s:View>

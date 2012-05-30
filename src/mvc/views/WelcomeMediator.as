@@ -19,6 +19,13 @@ package mvc.views
 			super(NAME, viewComponent);
 			
 			btnAbout.addEventListener(MouseEvent.CLICK, onBtnAboutClick);
+			welcome.btnGame.addEventListener(MouseEvent.CLICK, onGameClick);
+		}
+		
+		private function onGameClick(e:MouseEvent):void
+		{
+			var m:WritingMediator = facade.retrieveMediator(WritingMediator.NAME) as WritingMediator;
+			m.switchView(m.chapterList);
 		}
 		
 		private function onBtnAboutClick(e:MouseEvent):void
