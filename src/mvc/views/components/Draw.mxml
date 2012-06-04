@@ -6,4 +6,5 @@
 	</fx:Declarations>
 	<s:Label x="164" y="72" width="152" height="149" text="人" fontSize="150" horizontalCenter="0" verticalCenter="0" textAlign="center"/>
 	<s:Label y="230" width="54" horizontalCenter="0" text="rén" textAlign="center"/>
+	<s:Group id="drawBase"/>
 </s:View>
